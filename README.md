@@ -9,10 +9,6 @@ This repository contains a Python-based AI agent that fetches and plots Tesla st
 - Fetches real-time Tesla stock prices for the last month.
 - Plots the stock data using `matplotlib` for easy visualization.
 
-## Repository Name
-
-**Tesla Stock Price Agent**
-
 ## Prerequisites
 
 - Python 3.7 or later
@@ -25,8 +21,8 @@ This repository contains a Python-based AI agent that fetches and plots Tesla st
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/tesla-stock-agent.git
-cd tesla-stock-agent
+git clone https://github.com/Midhun-Kanadan/Tesla-Stock-Price-Agent.git
+cd Tesla-Stock-Price-Agent
 ```
 
 ### 2. Install Required Libraries
@@ -35,15 +31,6 @@ Run the following command to install the necessary dependencies:
 
 ```bash
 pip install -r requirements.txt
-```
-
-The `requirements.txt` should include:
-
-```text
-autogen
-ollama
-yfinance
-matplotlib
 ```
 
 ### 3. Install and Run Ollama
@@ -62,9 +49,7 @@ The agent will automatically retrieve the latest Tesla stock prices for the last
 
 After running the script, you will see a plot similar to the following:
 
-```plaintext
-A chart of Tesla stock prices for the last month, labeled with dates and stock prices in USD.
-```
+![Tesla stock prices for the last month](Tesla%20stock%20prices%20for%20the%20last%20month.png)
 
 ## Contributing
 
